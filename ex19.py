@@ -1,3 +1,4 @@
+print("mostrando números em ordem decrescente: \n")
 n1 = int(input("insira o primeiro número: "))
 n2 = int(input("insira o segundo número: "))
 n3 = int(input("insira o terceiro número: "))
