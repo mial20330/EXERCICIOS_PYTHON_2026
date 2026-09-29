@@ -8,8 +8,8 @@ else:
     metros_por_litro = 3
     litros_por_lata = 18
     preço_lata = 80
-    litros_necessarios = area_em_metros / metros_por_litro
-    latas_necessarias = math.ceil(litros_necessarios)
+    litros_necessarios = area / metros_por_litro
+    latas_necessarias = math.ceil(litros_necessarios / litros_por_lata)
     custo_total = latas_totais * preço_lata
 
     print(f"para {area} m², precisamos de {litros_totais:.2f} litros") #o ":.2f" foi usado para mostrar somente os dois primeiros números após a virgula!!
