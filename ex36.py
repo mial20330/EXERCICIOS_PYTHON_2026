@@ -3,35 +3,27 @@ print(" 1 - domingo \n 2 - segunda \n 3 - terça \n 4 - quarta \n 5 - quinta \n 
 
 dia = int(input("insira o dia da semana em número: "))
 
-1 == "domingo"
-2 == "segunda"
-3 == "terça"
-4 == "quarta"
-5 == "quinta"
-6 == "sexta"
-7 == "sábado"
-
 if(dia > 7 or dia <= -0):
     print("valor inválido!!")
 
 elif(dia == 1):
-    print("o seu dia é domingo fodase")    
+    print("o seu dia da semana é domingo")    
     
 elif(dia == 2):
-    print(f"o seu dia é {2}")
+    print("o seu dia da semana é segunda")
     
 elif(dia == 3):
-    print(f"o seu dia é {3}")
+    print("o seu dia da semana é terça")
 
 elif(dia == 4):
-    print(f"o seu dia é {4}")
+    print("o seu dia da semana é quarta")
 
 elif(dia == 5):
-    print(f"o seu dia é {5}")
+    print("o seu dia da semana é quinta")
 
 elif(dia == 6):
-    print(f"o seu dia é {6}")
+    print("o seu dia da semana é sexta")
 
 else:
-    dia == 7
-    print(f"o seu dia é {7}")
+    (dia == 7)
+    print("o seu dia da semana é sábado")
