@@ -30,4 +30,4 @@ else:
         ord2 = n2
         ord3 = n1
 
-print("A ordem certa é: " ,ord1, " > " ,ord2, " > " ,ord3)
+print(f"A ordem certa é: {ord1} > {ord2} > {ord3}")

@@ -1,3 +1,4 @@
+import math
 print("\n convertendo tintas! \n")
 area =  float(input("insira a área em metros: "))
 
@@ -10,8 +11,8 @@ else:
     preço_lata = 80
     litros_necessarios = area / metros_por_litro
     latas_necessarias = math.ceil(litros_necessarios / litros_por_lata)
-    custo_total = latas_totais * preço_lata
+    custo_total = latas_necessarias * preço_lata
 
-    print(f"para {area} m², precisamos de {litros_totais:.2f} litros") #o ":.2f" foi usado para mostrar somente os dois primeiros números após a virgula!!
-    print(f"você precisa de {latas_totais:.2f} latas para pintar {area} m²")
+    print(f"para {area} m², precisamos de {litros_necessarios:.2f} litros") #o ":.2f" foi usado para mostrar somente os dois primeiros números após a virgula!!
+    print(f"você precisa de {latas_necessarias} latas para pintar {area} m²")
     print(f"isso tudo custará R${custo_total:.2f}")

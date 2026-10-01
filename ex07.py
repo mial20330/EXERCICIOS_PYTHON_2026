@@ -1,3 +1,5 @@
+print("média de notas escolares! \n")
+
 while(True):
     nota1 = int(input("insira a primeira nota: "))
     if(nota1 > 10 or nota1 < 0):
@@ -31,10 +33,10 @@ mater = input("insira a matéria: ")
 media = (nota1 + nota2 + nota3 + nota4) / 4
 
 if(media >= 7):
-    print("você esta aprovado " ,mater, " com a média de: " ,media)
+    print(f"você esta aprovado {mater}! com a média de: {media}")
 
 elif(media < 7):
-    print("você está reprovado em " ,mater, " com a média de: " ,media)
+    print(f"você está reprovado em {mater}! com a média de: {media}")
 
 else:
     print("não tem como ter essa nota kk")
